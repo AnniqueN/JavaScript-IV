@@ -83,7 +83,6 @@ class ProjectManager extends Instructor {
     }
   }
 
-  //***STRECTH PROBLEM */
   const gigiMiller = new Person({
     name: "Gigi",
     age: 28,
@@ -92,7 +91,7 @@ class ProjectManager extends Instructor {
   const kateJones = new Person({
     name: "Kate",
     age: 31,
-    location: "Texas"
+    location: "Canada"
   });
   console.log(gigiMiller.speak());
   console.log(kateJones.speak());
